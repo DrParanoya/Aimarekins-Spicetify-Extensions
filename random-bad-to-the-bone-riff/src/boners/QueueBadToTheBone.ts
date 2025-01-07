@@ -2,11 +2,11 @@ import { chance, randomInt } from "../util/RandomUtil"
 import isBadToTheBone from "../isBadToTheBone"
 import chanceEveryHandler from "./handlers/chanceEveryHandler"
 
-const BAD_TO_THE_BONE_URI = "spotify:track:6s0NHplywwr1IjnQpUpWJk"
+const BAD_TO_THE_BONE_URI = "spotify:track:5PldHs83FjoH0kyTZw75yI?si=cb9b50a0b79d4513"
 
 export function queueBadToTheBone() {
 	Spicetify.addToQueue([ { uri: BAD_TO_THE_BONE_URI } ])
-	Spicetify.showNotification("💀")
+	Spicetify.showNotification("👽")
 }
 
 export function getQueueBadToTheBoneChance(boneLevel: number) {
